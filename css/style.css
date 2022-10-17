@@ -149,7 +149,6 @@ body {
 
 .nav__link:hover {
 	border-bottom: 5px solid #7b6c63;
-	transition: all 0.2s linear;
 }
 
 /*.nav__link:hover::after {
@@ -441,7 +440,7 @@ body {
 .contacts__icon {
 	flex-shrink: 0;
 	margin: auto 0;
-	background: #fff;
+	background: #f6f6f6;
 	border-radius: 50%;
 	width: 20px;
 	height: 20px;
@@ -529,10 +528,16 @@ body {
 
 
 
-.fuck {
+.well {
 	margin: 0 auto;
 	font-size: 200px;
 	color: darkred;
 	font-style: "Oleo Script";
 	font-weight: 900;
+}
+
+
+
+:root {
+	color-scheme: dark light;
 }
